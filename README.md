@@ -1,26 +1,26 @@
-# Sign Language Interpreter
+**Sign Language Interpreter**
 
 This project is a real-time sign language interpreter using computer vision and text-to-speech. It detects hand gestures via webcam, interprets them as words, and speaks them aloud. Emojis and the interpreted sentence are displayed on the screen.
 
-## Features
+**Features**
 
 - Detects basic sign language gestures: Hello, Bye, Yes, No, Thanks, Wait, OK
 - Shows corresponding emoji and word on the video feed
 - Speaks detected words using text-to-speech
 - Displays the interpreted sentence
 
-## Requirements
+**Requirements**
 
 - Python 3.7+
 - Webcam
 
-### Python Libraries
+**Python Libraries**
 
 - opencv-python
 - mediapipe
 - pyttsx3
 
-## Installation
+**Installation**
 
 1. Clone or download this repository.
 2. Install dependencies:
@@ -28,7 +28,7 @@ This project is a real-time sign language interpreter using computer vision and 
     pip install opencv-python mediapipe pyttsx3
     ```
 
-## Usage
+**Usage**
 
 1. Run the interpreter:
     ```
@@ -39,12 +39,12 @@ This project is a real-time sign language interpreter using computer vision and 
 4. Press `q` to quit.
 5. Press `c` to clear the sentence.
 
-## Files
+**Files**
 
 - `main.py` - Main application for gesture detection and interpretation.
 - `test_speech.py` - (Optional) For testing text-to-speech functionality.
 
-## Notes
+**Notes**
 
 - Make sure your webcam is connected and accessible.
 - The interpreter works best in good lighting and with clear hand gestures.
